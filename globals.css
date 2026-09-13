@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  color: #231F20;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, .font-display {
+  font-family: 'Fraunces', serif;
+}
+
+/* Visible keyboard focus */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #D6395B;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.container-page {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.prose-content p {
+  margin-bottom: 1rem;
+  line-height: 1.75;
+  color: #3a3536;
+}
+
+.prose-content h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  color: #231F20;
+}
+
+.prose-content h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #231F20;
+}
+
+/* Unique accent touch for the main calculator card — keeps the site white,
+   but gives the calculator itself a warm gold-tinted identity. */
+.calculator-card {
+  background: linear-gradient(180deg, #FBF6EC 0%, #FFFFFF 45%);
+  border: 1px solid #EAD6A0;
+  box-shadow: 0 1px 2px rgba(184, 134, 47, 0.06), 0 8px 24px -12px rgba(184, 134, 47, 0.18);
+}
+
+.prose-content table {
+  font-size: 0.9rem;
+}
+.prose-content th {
+  color: #7A561B;
+}
