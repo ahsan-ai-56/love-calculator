@@ -10,7 +10,7 @@ export const POSTS_PER_PAGE = 10;
 export const blogPosts = [
   {
     slug: "what-is-numerology",
-    image: "/blog/what-is-numerology.svg",
+    image: "/what-is-numerology.jpg",
     date: "2026-01-10",
     en: {
       title: "What Is Numerology? A Simple Guide for Beginners",
@@ -23,7 +23,7 @@ export const blogPosts = [
   },
   {
     slug: "love-calculator-vs-real-compatibility",
-    image: "/blog/love-calculator-vs-real-compatibility.svg",
+    image: "/love-calculator-vs-real-compatibility.jpg",
     date: "2026-01-14",
     en: {
       title: "Love Calculator vs Real Compatibility: What's the Difference?",
@@ -36,7 +36,7 @@ export const blogPosts = [
   },
   {
     slug: "flames-game-history",
-    image: "/blog/flames-game-history.svg",
+    image: "/flames-game-history.jpg",
     date: "2026-01-18",
     en: {
       title: "The History of the FLAMES Game — Where Did It Come From?",
@@ -49,7 +49,7 @@ export const blogPosts = [
   },
   {
     slug: "fun-things-to-do-with-your-crush-name",
-    image: "/blog/fun-things-to-do-with-your-crush-name.svg",
+    image: "/fun-things-to-do-with-your-crush-name.jpg",
     date: "2026-01-22",
     en: {
       title: "10 Fun Things to Do With Your Crush's Name (Besides a Love Calculator)",
