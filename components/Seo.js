@@ -28,6 +28,7 @@ export default function Seo({
       <meta name="twitter:description" content={description} />
 
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="google-site-verification" content="cXCELYEa8kCkOH8ed-OsDMPdR-yjrI65mWnR5R9jYH4" />
 
       {schema && (
         <script
